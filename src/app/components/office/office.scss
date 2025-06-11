@@ -1,0 +1,19 @@
+.art {
+    background-image: url('../../../assets/office.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    transition: all 0.5s ease;
+
+    &:hover {
+        -webkit-filter: brightness(150%);
+        filter: brightness(150%);
+    }    
+}
+
+.positioning {
+    margin-top: 660px;
+    margin-left: 410px;
+}

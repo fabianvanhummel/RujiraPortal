@@ -1,0 +1,23 @@
+.library-content {
+  background-color: #0a141c;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+.header {
+  margin-top: 32px;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.return {
+  cursor: pointer;
+  font-size:64px;
+  color: white; 
+  position: absolute;
+  left: 32px;
+  top: 16px;
+}
