@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.background {
+  background-color: #0a141c;
+  display: flex;
+}
+
+.image {
+    background-image: url('assets/city.png');
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    vertical-align: middle;
+}
