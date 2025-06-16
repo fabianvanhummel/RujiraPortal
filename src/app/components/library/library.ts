@@ -10,7 +10,6 @@ export class Library {
   libraryEntered = output<string>();
 
   enterLibrary() {
-    console.log('entering library and emitting event');
     this.libraryEntered.emit('library');
   }
 }

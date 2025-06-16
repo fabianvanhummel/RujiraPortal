@@ -1,3 +1,4 @@
+import { DialogRef } from '@angular/cdk/dialog';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,7 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './library-content.scss',
 })
 export class LibraryContent {
+  constructor(public libraryDialogRef: DialogRef<string>) {}
+
   return() {
-    console.log('closing modal');
+    this.libraryDialogRef.close();
   }
 }

@@ -4,6 +4,7 @@
   width: 100%;
   text-align: center;
   position: absolute;
+  animation: appear ease-in-out 0.5s;
 }
 
 .header {
@@ -20,4 +21,17 @@
   position: absolute;
   left: 32px;
   top: 16px;
+}
+
+.appear {
+  animation: 1.5s ease-out 0s 1 slideInFromRight forwards;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
