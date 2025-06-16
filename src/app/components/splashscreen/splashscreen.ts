@@ -30,7 +30,6 @@ export class Splashscreen {
     if (d) {
       d.classList.remove('zoom');
     }
-    this.createPage(page);
   }
 
   openLibraryDialog() {
