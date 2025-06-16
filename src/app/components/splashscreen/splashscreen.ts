@@ -39,7 +39,7 @@ export class Splashscreen {
       width: '100vw',
       hasBackdrop: true,
     });
-    this.libraryDialogRef.closed.subscribe(() => {
+    this.libraryDialogRef.componentInstance.closed.subscribe(() => {
       this.unzoomComponent('library');
     });
   }

@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/RujiraPortal',
   supportedLocales: {
   "en-US": ""
 },

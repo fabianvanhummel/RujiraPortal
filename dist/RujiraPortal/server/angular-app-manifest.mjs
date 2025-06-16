@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/',
+  baseHref: '/RujiraPortal/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/"
+    "route": "/RujiraPortal"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 875, hash: '73363e9efb154a11617d6cf1ad577a81403a7682a8d6b1777eb8c9ef7ce25b1b', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1027, hash: '9a76cc3dda9b5cdb4b8d2db7cea51342fb4a09c5c1535fd42c1a13fd5d2d1df2', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 4323, hash: 'e29e3e1dd585443bfc701df0ad542496bb2b15680a56f6f89f6a606229665b7b', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 888, hash: '07f13407d04dcb6db3c54058b043c2f4f918172d55c14b8fe3d8efa0c58c0c77', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1040, hash: '5749784b6acf6490d843afdacc4b28233db5d51c610b387ad6a65a2a5d5eb78d', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 4336, hash: 'd445597541a8d751f78403ba2a1f5a41ee9536ef3be98d1b60bc63242752f640', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-EB72GPVZ.css': {size: 332, hash: 'CbVTQ63nU4A', text: () => import('./assets-chunks/styles-EB72GPVZ_css.mjs').then(m => m.default)}
   },
 };

@@ -1,7 +1,7 @@
 export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
     <meta charset="utf-8">
     <title>Omniverse</title>
-    <base href="/">
+    <base href="/RujiraPortal/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
   <style>.background{z-index:0;background-color:#0a141c;display:flex;overflow:hidden}.image{z-index:1;background-image:url(https://i.ibb.co/bgh36jvZ/city.png);background-repeat:no-repeat;height:1000px;width:1000px;margin:auto;vertical-align:middle}
