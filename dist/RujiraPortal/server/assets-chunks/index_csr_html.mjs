@@ -11,6 +11,6 @@ export default `<!DOCTYPE html>
     <div class="image">
       <app-root></app-root>
     </div>
-  <script src="main-IF4QNB7Q.js" type="module"></script></body>
+  <script src="main-OPJHNS2L.js" type="module"></script></body>
 </html>
 `;
