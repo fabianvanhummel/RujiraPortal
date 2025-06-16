@@ -1,0 +1,16 @@
+export default `<!DOCTYPE html>
+<html lang="en" data-beasties-container="">
+  <head>
+    <meta charset="utf-8">
+    <title>Omniverse</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>.background{z-index:0;background-color:#0a141c;display:flex;overflow:hidden}.image{z-index:1;background-image:url("./media/city-NIE7SFFH.png");background-repeat:no-repeat;height:1000px;width:1000px;margin:auto;vertical-align:middle}</style><link rel="stylesheet" href="styles-W5NXG6HB.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-W5NXG6HB.css"></noscript></head>
+  <body class="background" ngcm="">
+    <div class="image">
+      <app-root></app-root>
+    </div>
+  <script src="main-EBZTXDFS.js" type="module"></script></body>
+</html>
+`;
