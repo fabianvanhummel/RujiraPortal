@@ -1,5 +1,7 @@
 {
   "routes": {
-    "/RujiraPortal": {}
+    "/RujiraPortal": {},
+    "/RujiraPortal/nexus": {},
+    "/RujiraPortal/omniverse": {}
   }
 }
