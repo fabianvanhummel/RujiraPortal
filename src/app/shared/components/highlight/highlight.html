@@ -1,0 +1,12 @@
+<div class="circle"
+    (mouseenter)="hovering = true"
+    (mouseleave)="hovering = false"
+    [ngStyle]="
+    {
+        'width': width + 'em',
+        'height': height + 'em',
+        'margin-top': margin_top + 'em',
+        'margin-left': margin_left + 'em',
+        'box-shadow': hovering? createBoxShadow() : ''
+    }">
+></div>

@@ -1,0 +1,19 @@
+.overworld {
+  background-image: url("../../../assets/omniverse.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90em;
+  width: 157em;
+  margin: auto;
+  transition: all 2s ease;
+}
+
+.zoom {
+  z-index: 10;
+  opacity: 0;
+
+  &--nexus {
+    transform: translate(-55%, -120%) scale(5);
+  }
+}

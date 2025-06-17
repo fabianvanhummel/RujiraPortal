@@ -18,17 +18,19 @@ export class Nexus {
   libraryDialogRef: DialogRef | any;
 
   enterPage(page: string) {
-    var d = document.getElementById(page);
+    var d = document.getElementById('city');
     if (d) {
       d.classList.add('zoom');
+      d.classList.add('zoom--library');
     }
     this.createPage(page);
   }
 
-  unzoomComponent(page: string) {
-    var d = document.getElementById(page);
+  unzoomComponent() {
+    var d = document.getElementById('city');
     if (d) {
       d.classList.remove('zoom');
+      d.classList.remove('zoom--library');
     }
   }
 
@@ -40,7 +42,7 @@ export class Nexus {
       hasBackdrop: true,
     });
     this.libraryDialogRef.componentInstance.closed.subscribe(() => {
-      this.unzoomComponent('library');
+      this.unzoomComponent();
     });
   }
 

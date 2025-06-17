@@ -6,12 +6,6 @@
   overflow: hidden;
 }
 
-.zoom {
-  transform: scale(10);
-  transform-origin: 25% 50%;
-  z-index: 10;
-}
-
 .m-0 {
   margin: 0;
 }
@@ -22,4 +16,10 @@ h1 {
 
 p {
   color: white;
+}
+
+:host {
+  display: block;
+  height: 100vh;
+  width: 100vw;
 }
