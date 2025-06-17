@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Splashscreen } from './splashscreen';
+import { Overworld } from './overworld';
 
-describe('Splashscreen', () => {
-  let component: Splashscreen;
-  let fixture: ComponentFixture<Splashscreen>;
+describe('Overworld', () => {
+  let component: Overworld;
+  let fixture: ComponentFixture<Overworld>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Splashscreen]
+      imports: [Overworld]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Splashscreen);
+    fixture = TestBed.createComponent(Overworld);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

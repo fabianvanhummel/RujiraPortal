@@ -1,6 +1,6 @@
 import { DialogRef } from '@angular/cdk/dialog';
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { delay } from '../../../shared/delay';
+import { delay } from '../../../../shared/delay';
 import { CommonModule } from '@angular/common';
 
 @Component({

@@ -1,19 +1,19 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { Library } from '../library/library';
-import { University } from '../university/university';
-import { Office } from '../office/office';
-import { Museum } from '../museum/museum';
+import { Library } from './library/library';
+import { University } from './university/university';
+import { Office } from './office/office';
+import { Museum } from './museum/museum';
 import { Dialog, DialogRef } from '@angular/cdk/dialog';
-import { LibraryContent } from '../library/library-content/library-content';
+import { LibraryContent } from './library/library-content/library-content';
 import { delay } from '../../shared/delay';
 
 @Component({
-  selector: 'app-splashscreen',
+  selector: 'app-nexus',
   imports: [Library, University, Office, Museum],
-  templateUrl: './splashscreen.html',
-  styleUrl: './splashscreen.scss',
+  templateUrl: './nexus.html',
+  styleUrl: './nexus.scss',
 })
-export class Splashscreen {
+export class Nexus {
   private dialog = inject(Dialog);
   libraryDialogRef: DialogRef | any;
 
